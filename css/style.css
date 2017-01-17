@@ -54,9 +54,13 @@ h2 {
   background-color: #e8e8e8;
 }
 
+i {
+    color: rgb(88, 89, 88)
+}
+
 main {
   width: 1020px;
-  height: 400px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -74,6 +78,10 @@ main {
   margin-right: auto;
 }
 
+img {
+    width: 260px;
+    height: 195px;
+}
 article {
   width: 260px;
   display: inline-block;
