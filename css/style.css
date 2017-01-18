@@ -29,6 +29,10 @@ a {
   text-transform: uppercase;
 }
 
+a:hover {
+  color: #cfa205;
+}
+
 li.selected a {
   color: #cfa205;
 }
@@ -49,6 +53,10 @@ h1 {
   font-size: 133px;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+h1:hover {
+  color: rgb(255, 222, 0);
 }
 
 h2 {
