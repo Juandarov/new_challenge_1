@@ -52,7 +52,29 @@ h1 {
 
 section {
   width: 1020px;
-  height: auto;
+  height: 300px;
   margin: 0 auto;
   background-color: white;
+  padding: 150px 0;
+}
+
+fieldset {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#infos {
+  border-radius: 10px;
+  height: 240px;
+  margin-left: 90px;
+  padding: 10px;
+  width: 260px;
+}
+
+#comments {
+  border-radius: 10px;
+  height: 240px;
+  padding: 10px;
+  margin-left: 20px;
+  width: 500px;
 }

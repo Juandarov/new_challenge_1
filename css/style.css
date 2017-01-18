@@ -113,12 +113,8 @@ article {
   display: inline-block;
 }
 
-section > article:first-child {
-  margin-right: 54.5px;
-}
-
 article:nth-child(2){
-  margin-right: 54.5px;
+  margin: 0 54.5px;
 }
 
 p {
