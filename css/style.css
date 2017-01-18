@@ -29,7 +29,7 @@ ul {
 
 h1 {
   width: 1020px;
-  height: 320px;
+  height: 210px;
   margin-left: auto;
   margin-right: auto;
   color: #cfa205;
@@ -37,6 +37,7 @@ h1 {
   text-align: center;
   font-size: 133px;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -55,7 +56,8 @@ h2 {
 }
 
 i {
-    color: rgb(88, 89, 88)
+    color: rgb(88, 89, 88);
+    margin: 22px 10px;
 }
 
 main {
@@ -89,14 +91,24 @@ section {
     margin-right: auto;
     height: auto;
 }
+
 article {
   width: 260px;
-  margin: 25px;
   display: inline-block;
 }
+
+section > article:first-child {
+  margin-right: 54.5px;
+}
+
+article:nth-child(2){
+  margin-right: 54.5px;
+}
+
 p {
     width:260px;
 }
+
 h4 {
     width:260px;
 }
