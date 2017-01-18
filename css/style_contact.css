@@ -34,11 +34,6 @@ li.selected a {
   color: #cfa205;
 }
 
-
-form {
-
-}
-
 h1 {
   width: 1020px;
   height: 80px;
@@ -47,7 +42,7 @@ h1 {
   text-align: center;
   color: #cfa205;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 section {
@@ -55,7 +50,10 @@ section {
   height: 300px;
   margin: 0 auto;
   background-color: white;
+  color:#7a7a7a;
   padding: 150px 0;
+  font-family: Bitter;
+  font-weight: bold;
 }
 
 fieldset {
@@ -77,4 +75,8 @@ fieldset {
   padding: 10px;
   margin-left: 20px;
   width: 500px;
+}
+
+input {
+    margin: 5px 0;
 }
