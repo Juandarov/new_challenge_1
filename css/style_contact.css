@@ -1,0 +1,58 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../image/bg.jpg);
+  background-size: cover;
+}
+
+ul {
+  width: 1020px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 20px;
+  margin-top: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li.selected a {
+  color: #cfa205;
+}
+
+
+form {
+
+}
+
+h1 {
+  width: 1020px;
+  height: 80px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  color: #cfa205;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+section {
+  width: 1020px;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+}

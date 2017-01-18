@@ -7,7 +7,6 @@
 body {
   background-image: url(../image/bg.jpg);
   background-size: cover;
-
 }
 
 ul {
@@ -18,18 +17,22 @@ ul {
   background-color: black;
 }
 
-ul a {
+li {
   display: inline-block;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
   margin: 0 20px;
   margin-top: 5px;
 }
 
-ul>a:first-child {
-    color: #cfa205
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
+
+li.selected a {
+  color: #cfa205;
+}
+
 
 ul {
   text-align: center;
@@ -66,7 +69,7 @@ h2 {
   background-color: #e8e8e8;
 }
 
-i {
+#logo li {
     color: rgb(88, 89, 88);
     margin: 22px 10px;
 }
