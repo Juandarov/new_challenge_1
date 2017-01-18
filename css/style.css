@@ -82,7 +82,21 @@ img {
     width: 260px;
     height: 195px;
 }
+
+section {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
 article {
   width: 260px;
+  margin: 25px;
   display: inline-block;
+}
+p {
+    width:260px;
+}
+h4 {
+    width:260px;
 }
